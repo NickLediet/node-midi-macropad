@@ -27,7 +27,7 @@ Example `package.json` configuration:
     "zx": "^6.2.3"
   },
   "midi": {
-    "NoteOff": { // This could also be `NoteOff`. Other midi message types are not currently supported
+    "NoteOff": { // This could also be `NoteOn`. Other midi message types are not currently supported
       "48": "echo 'test'",  // First C on my controller
       "49": "npm run start",// First C# on my controller
       "50": "npm run build" // First D on my controller
